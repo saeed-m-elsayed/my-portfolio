@@ -16,6 +16,10 @@ closeIcon.onclick = function(){
     closeIcon.style.display = "none"
 }
 window.onscroll = function(){
+    nav.style.display = "none"
+    burgerIcon.style.visibility = "visible"
+    closeIcon.style.visibility = "hidden"
+    closeIcon.style.display = "none"
     if(scrollY >= 400){
         up.style.visibility = "visible"
         up.style.opacity = "0.7"
@@ -32,4 +36,11 @@ up.onclick = function(){
         top:0,
         behavior:"smooth"
     })
+}
+
+function closeBurger(){
+    nav.style.display = "none"
+    burgerIcon.style.visibility = "visible"
+    closeIcon.style.visibility = "hidden"
+    closeIcon.style.display = "none"
 }
