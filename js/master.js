@@ -2,6 +2,17 @@ let burgerIcon = document.getElementById("burger-icon")
 let nav = document.getElementById("nav")
 let closeIcon = document.getElementById("close")
 let up = document.getElementById("up")
+let phone = document.getElementById("phone")
+
+
+function phoneCheck(){
+    if(phone.value >= 0){
+        phone.value = phone.value
+    }
+    else{
+        phone.value = ''
+    }
+}
 
 burgerIcon.onclick = function(){
     nav.style.display = "block"

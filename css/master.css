@@ -555,6 +555,25 @@ footer a img{
         width: 100%;
     }
 }
+#button{
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    outline: none;
+    border: none;
+}
+#button:hover{
+    background-color: orange;
+    color: white;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
 /* End contact */
 /* start background */
 body{

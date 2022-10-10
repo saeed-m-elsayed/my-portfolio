@@ -143,10 +143,10 @@
             <div class="sec">
                 <img src="images/contact.png" alt="img">
                 <form action="https://formsubmit.io/send/saeed@saeed.website" method="POST">
-                    <input type="text" name="name" id="user_name" placeholder="&#xf007;  Name">
-                    <input type="email" name="email" id="user_email" placeholder="&#xf0e0;  Email">
-                    <input type="tel" name="phone" id="phone" placeholder="&#xf095;  Phone Number">
-                    <textarea name="message" id="message" placeholder="&#xf4ad;  Text"></textarea>
+                    <input type="text" name="name" id="user_name" placeholder="&#xf007;  Name" required>
+                    <input type="email" name="email" id="user_email" placeholder="&#xf0e0;  Email" required>
+                    <input onkeyup="phoneCheck()" type="tel" name="phone" id="phone" placeholder="&#xf095;  Phone Number" required>
+                    <textarea name="message" id="message" placeholder="&#xf4ad;  Text" required></textarea>
                     <input type="submit" id="button" value="Send Email" >
                 </form>
             </div>
