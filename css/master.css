@@ -571,9 +571,6 @@ footer a img{
     background-color: orange;
     color: white;
 }
-input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-  }
 /* End contact */
 /* start background */
 body{
